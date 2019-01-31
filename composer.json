@@ -1,0 +1,32 @@
+{
+	"name" : "CUOMA/captcha",
+	"description" : "Captcha Package for Laravel 4",
+	"keywords" : [
+		"L4",
+		"Laravel 4",
+		"Laravel",
+		"Captcha",
+		"security",
+		"captcha image"
+	],
+	"homepage" : "https://github.com/CUOMA/captcha",
+	"license" : "MIT",
+	"authors" : [{
+			"name" : "Luis Argañaraz",
+			"email" : "larganaraz@cuoma.com"
+		}, {
+			"name" : "Santiago Martinez",
+			"email" : "smartinez@cuoma.com"
+		}
+	],
+	"require" : {
+		"php" : ">=5.3.0",
+		"illuminate/support" : "~4"
+	},
+	"autoload" : {
+		"psr-0" : {
+			"j0an\\Captcha" : "src/"
+		}
+	},
+	"minimum-stability" : "dev"
+}
