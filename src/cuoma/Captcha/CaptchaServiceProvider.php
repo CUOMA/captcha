@@ -1,4 +1,4 @@
-<?php namespace j0an\Captcha;
+<?php namespace cuoma\Captcha;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -18,7 +18,7 @@ class CaptchaServiceProvider extends ServiceProvider {
 	 */
 	public function boot()
 	{
-		$this->package('j0an/captcha');
+		$this->package('cuoma/captcha');
 
 		require __DIR__ . '/../../routes.php';
 		require __DIR__ . '/../../validation.php';

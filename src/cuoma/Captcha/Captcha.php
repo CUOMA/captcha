@@ -1,4 +1,4 @@
-<?php namespace j0an\Captcha;
+<?php namespace cuoma\Captcha;
 
 use Config, Str, Session, Hash, URL;
 
