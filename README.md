@@ -90,7 +90,7 @@ To use your own settings, publish config.
 ## Links
 
 * [L4 Captcha on Github](https://github.com/cuoma/captcha)
-* [L4 Captcha on Packagist](https://packagist.org/packages/j0an/captcha)
+* [L4 Captcha on Packagist](https://packagist.org/packages/cuoma/captcha)
 * [License](http://www.opensource.org/licenses/mit-license.php)
 * [Laravel website](http://laravel.com)
 * [Laravel Turkiye website](http://www.laravel.gen.tr)

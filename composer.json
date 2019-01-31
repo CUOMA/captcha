@@ -8,7 +8,7 @@
 		"Captcha",
 		"security",
 		"captcha image"
-	],
+	],j
 	"homepage" : "https://github.com/CUOMA/captcha",
 	"license" : "MIT",
 	"authors" : [{
@@ -25,7 +25,7 @@
 	},
 	"autoload" : {
 		"psr-0" : {
-			"j0an\\Captcha" : "src/"
+			"cuoma\\Captcha" : "src/"
 		}
 	},
 	"minimum-stability" : "dev"
