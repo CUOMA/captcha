@@ -8,14 +8,14 @@ A simple [Laravel 4](http://four.laravel.com/) service provider for Laravel 4, b
 ## Installation
 
 The Captcha Service Provider can be installed via [Composer](http://getcomposer.org) by requiring the
-`j0an/captcha` package and setting the `minimum-stability` to `dev` (required for Laravel 4) in your
+`cuoma/captcha` package and setting the `minimum-stability` to `dev` (required for Laravel 4) in your
 project's `composer.json`.
 
 ```json
 {
     "require": {
         "laravel/framework": "4.0.*",
-        "j0an/captcha": "dev-master"
+        "cuoma/captcha": "dev-master"
     },
     "minimum-stability": "dev"
 }
@@ -33,7 +33,7 @@ Find the `providers` key in `app/config/app.php` and register the Captcha Servic
 ```php
     'providers' => array(
         // ...
-        'j0an\Captcha\CaptchaServiceProvider',
+        'cuoma\Captcha\CaptchaServiceProvider',
     )
 ```
 
@@ -42,7 +42,7 @@ Find the `aliases` key in `app/config/app.php`.
 ```php
     'aliases' => array(
         // ...
-        'Captcha' => 'j0an\Captcha\Facades\Captcha',
+        'Captcha' => 'cuoma\Captcha\Facades\Captcha',
     )
 ```
 
@@ -50,7 +50,7 @@ Find the `aliases` key in `app/config/app.php`.
 
 To use your own settings, publish config.
 
-```$ php artisan config:publish j0an/captcha```
+```$ php artisan config:publish cuoma/captcha```
 
 ## Example Usage
 
@@ -89,7 +89,7 @@ To use your own settings, publish config.
 
 ## Links
 
-* [L4 Captcha on Github](https://github.com/j0an/captcha)
+* [L4 Captcha on Github](https://github.com/cuoma/captcha)
 * [L4 Captcha on Packagist](https://packagist.org/packages/j0an/captcha)
 * [License](http://www.opensource.org/licenses/mit-license.php)
 * [Laravel website](http://laravel.com)

@@ -1,5 +1,5 @@
 {
-	"name" : "CUOMA/captcha",
+	"name" : "cuoma/captcha",
 	"description" : "Captcha Package for Laravel 4",
 	"keywords" : [
 		"L4",
