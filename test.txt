@@ -1,0 +1,11 @@
+integración Pasarela Global con Magento
+
+"Basicamente es ver el flujo de incovacion a nuestra plataforma de pagos global y el caso de uso para mitigar los pagos que quedan en estado “Pending Payment”
+
+plataforma de pagos global
+PSI compliance nivel 1
+solo tarjeta de credito
+
+no hay modulo de magento, lo proponen hacer con un iframe (si o si)
+
+
